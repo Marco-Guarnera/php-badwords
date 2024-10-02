@@ -20,7 +20,27 @@
         <h1 class="text-center">Intro PHP</h1>
     </header>
     <!-- Main -->
-    <main></main>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <!-- Form -->
+                    <form action="./server.php" method="get">
+                        <div class="mb-3">
+                            <label for="user-text" class="form-label">Text</label>
+                            <input type="text" id="user-text" class="form-control" name="user-text" placeholder="Text">
+                        </div>
+                        <div class="mb-3">
+                            <label for="user-word" class="form-label">Word</label>
+                            <input type="text" id="user-word" class="form-control" name="user-word" placeholder="Word">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                        <button type="reset" class="btn btn-secondary">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
